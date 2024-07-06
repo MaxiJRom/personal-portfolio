@@ -12,15 +12,15 @@
 /*====================================== Global reset  ===================================== */
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
-	/* outline: 1px solid lightcoral; */
+  /* outline: 1px solid lightcoral; */
 }
 
 html {
-	font-family: Rubik, sans-serif;
+  font-family: Rubik, sans-serif;
 }
 
 /* a {
@@ -29,265 +29,267 @@ html {
 } */
 
 img {
-	width: 100%;
-	/* height: 100%; 	 */
-	display: block;
+  width: 100%;
+  /* height: 100%; 	 */
+  display: block;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 /*=============== Estilos del body para dar forma a la page  ================================== */
 
 body {
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 main {
-	flex-grow: 1;
-	padding: 0 3rem;
-	background-color: var(--color-creme);
+  flex-grow: 1;
+  padding: 0 3rem;
+  background-color: var(--color-creme);
 }
 
 h1 {
-	font-family: Overpass;
-	padding-block: 2rem;
-	color: var(--color-dark-gray);
-	font-size: 2.5rem;
-	background-color: var(--color-creme);
-	text-align: center;
+  font-family: Overpass;
+  padding-block: 2rem;
+  color: var(--color-dark-gray);
+  font-size: 2.5rem;
+  background-color: var(--color-creme);
+  text-align: center;
 }
 /*====================================== Colores  ===================================== */
 :root {
-	--color-blue-dark: #001f3f;
-	--color-blue: #083358;
-	--color-blue-light: #0d63a5;
-	--color-yellow: #ffd717;
-	--color-dark-gray: rgba(31, 31, 31, 0.9);
-	--color-creme: #fffdd0;
-	--color-creme-light: #fcfad8;
+  --color-blue-dark: #001f3f;
+  --color-blue: #083358;
+  --color-blue-light: #0d63a5;
+  --color-yellow: #ffd717;
+  --color-dark-gray: rgba(31, 31, 31, 0.9);
+  --color-creme: #fffdef;
+  --color-creme-light: #fcfaf8;
 }
 
 /*======================================  header ===================================== */
 
 header {
-	height: 4rem;
-	display: flex;
-	justify-content: space-between;
-	background-color: var(--color-blue-light);
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-blue-light);
 }
 
 .header-logo-box {
-	> img {
-		padding: 0 2rem;
-		object-fit: contain;
-		max-height: 100%;
-	}
+  > img {
+    padding: 0 2rem;
+    object-fit: contain;
+    max-height: 100%;
+  }
 }
 
 header ul {
-	height: 100%;
-	display: flex;
+  height: 100%;
+  display: flex;
 }
 
 header li {
-	display: table;
-	font-family: Oswald, sans-serif;
-	color: rgba(255, 255, 255, 1);
-	font-weight: 400;
+  display: table;
+  font-family: Oswald, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
 
-	> a {
-		letter-spacing: 0.05rem;
-		padding-inline: 2rem;
-		vertical-align: middle;
-		text-decoration: none;
-		color: inherit;
-		display: table-cell;
-	}
+  > a {
+    letter-spacing: 0.05rem;
+    padding-inline: 2rem;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    display: table-cell;
+  }
 
-	> a:hover {
-		background-color: #2d83b5;
-	}
+  > a:hover {
+    background-color: #2d83b5;
+  }
 }
 
 .nav-button--active {
-	background-color: #2d83b5;
-	border: 2px solid rgba(255, 255, 255, 0.5);
-	border-top: 0;
+  background-color: #2d83b5;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-top: 0;
 }
 
 /*====================================== footer  ===================================== */
 
 footer {
-	font-size: 0.8rem;
-	text-align: center;
+  font-size: 0.8rem;
+  text-align: center;
 
-	a {
-		color: blue;
-	}
+  a {
+    color: blue;
+  }
 }
 
 /*====================================== page skils  ===================================== */
 
 .skills-container-grid {
-	max-width: 100ch;
-	margin: 0 auto;
+  max-width: 100ch;
+  margin: 0 auto;
 }
 
 .skill {
-	margin-bottom: 2rem;
-	display: grid;
-	grid-template-columns: 200px 1fr;
-	align-items: center;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
 }
 
 .skill-img {
-	max-height: 200px;
-	object-fit: contain;
-	padding: 1rem;
+  max-height: 200px;
+  object-fit: contain;
+  padding: 1rem;
 }
 
 .skill-description {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
 
-	> h2 {
-		font-family: Rubik, sans-serif;
-		font-weight: 700;
-		font-size: 1.5rem;
-		margin-block: 1rem;
-		color: var(--color-dark-gray);
-	}
+  > h2 {
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-block: 1rem;
+    color: var(--color-dark-gray);
+  }
 
-	> p,
-	li {
-		color: var(--color-dark-gray);
-		font-size: 0.9rem;
-		line-height: 1.4;
-		max-width: 65ch;
-	}
+  > p,
+  li {
+    color: var(--color-dark-gray);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    max-width: 65ch;
+  }
 
-	li {
-		margin-block: 0.3rem;
-	}
+  li {
+    margin-block: 0.3rem;
+  }
 }
 
 /*====================================== Page projects  ===================================== */
 
 .projects {
-	margin-block: 3rem;
+  margin-block: 3rem;
 
-	border: 1px solid var(--color-dark-gray);
+  border: 1px solid var(--color-dark-gray);
 
-	border-radius: 0.5rem;
+  border-radius: 0.5rem;
 
-	overflow: hidden;
+  box-shadow: 0 0 0 0.1rem var(--color-dark-gray);
+
+  overflow: hidden;
 }
 
 .project {
-	border: 1px solid var(--color-dark-gray);
-	background-color: var(--color-creme-light);
+  border: 1px solid var(--color-dark-gray);
+  background-color: var(--color-creme-light);
 
-	display: flex;
+  display: flex;
 
-	flex-direction: column;
+  flex-direction: column;
 
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .project-title {
-	padding: 1rem 2rem;
-	cursor: pointer;
-	display: flex;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
 
-	line-height: 2;
+  line-height: 2;
 
-	span {
-		font-weight: 900;
-		font-size: 1rem;
-		margin-left: auto;
-		transition: transform 0.5s ease;
-	}
+  span {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-left: auto;
+    transition: transform 0.5s ease;
+  }
 
-	span.open {
-		transform: rotate(45deg);
-	}
+  span.open {
+    transform: rotate(45deg);
+  }
 }
 
 .project-content {
-	padding: 1rem 2rem;
-	padding-block: 2rem;
+  padding: 1rem 2rem;
+  padding-block: 2rem;
 
-	display: grid;
-	grid-template-rows: 1fr max-content max-content;
-	transition: grid-template-rows 0.5s ease;
+  display: grid;
+  grid-template-rows: 1fr max-content max-content;
+  transition: grid-template-rows 0.5s ease;
 
-	row-gap: 3rem;
+  row-gap: 3rem;
 }
 
 .project-content[aria-hidden="true"] {
-	padding-block: 0;
-	row-gap: 0;
-	grid-template-rows: 0fr 0fr 0fr;
+  padding-block: 0;
+  row-gap: 0;
+  grid-template-rows: 0fr 0fr 0fr;
 }
 
 .project-content > * {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .project-content-imgs {
-	display: grid;
-	gap: 2rem;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	/* grid-template-rows: min-content; */
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  /* grid-template-rows: min-content; */
 
-	figure {
-		display: flex;
-		flex-direction: column;
-		img {
-			flex-grow: 1;
-			border-radius: 0.5rem;
-			object-fit: contain;
-			max-height: 200px;
-		}
+  figure {
+    display: flex;
+    flex-direction: column;
+    img {
+      flex-grow: 1;
+      border-radius: 0.5rem;
+      object-fit: contain;
+      max-height: 200px;
+    }
 
-		figcaption {
-			margin-top: 0.5rem;
-			font-size: 0.8;
-			color: var(--color-dark-gray);
-			text-align: center;
-		}
-	}
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.8;
+      color: var(--color-dark-gray);
+      text-align: center;
+    }
+  }
 }
 
 .project-content-techs {
-	> p {
-		display: inline-block;
-	}
+  > p {
+    display: inline-block;
+  }
 }
 
 .techs {
-	margin-left: 2rem;
-	display: inline-flex;
-	column-gap: 1.5rem;
-	img {
-		max-width: 32px;
-	}
+  margin-left: 2rem;
+  display: inline-flex;
+  column-gap: 1.5rem;
+  img {
+    max-width: 32px;
+  }
 }
 
 .project-content-link {
-	> p {
-		display: inline-block;
-	}
+  > p {
+    display: inline-block;
+  }
 
-	> a {
-		margin-left: 0.5rem;
-	}
+  > a {
+    margin-left: 0.5rem;
+  }
 }
