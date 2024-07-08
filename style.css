@@ -85,7 +85,7 @@ header {
 
 .header-logo-box {
   > img {
-    padding: 0 2rem;
+    padding: 0 1rem;
     object-fit: contain;
     max-height: 100%;
   }
