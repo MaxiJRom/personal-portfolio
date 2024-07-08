@@ -16,7 +16,7 @@
   margin: 0;
   box-sizing: border-box;
 
-  /* outline: 1px solid lightcoral; */
+  outline: 1px solid lightcoral;
 }
 
 html {
@@ -312,7 +312,7 @@ footer {
 .skill {
   margin-bottom: 2rem;
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 700px) {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
@@ -326,10 +326,10 @@ footer {
 }
 
 .skill-description {
-  /* height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; */
+  justify-content: space-between;
   padding: 1rem;
 
   > h2 {
