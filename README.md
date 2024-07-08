@@ -33,3 +33,8 @@ Para los estilos CSS y el esqueleto HTML se utilizan buenas prácticas, a saber:
 - Accesibility colours and tools
 - Este README para documentar
 - Seguimiento y control de versiones con GIT
+
+--- 
+
+### Deployment: 
+[Ver ésta page: ](https://maxijrom.github.io/personal-portfolio/)
