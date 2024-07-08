@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../style.css" />
-		<title>Personal Portfolio</title>
-	</head>
-	<body>
-		<header>
-			<a href="../index.html" class="header-logo-box">
-				<img
-					title="Ir al home"
-					class="header-logo-img"
-					src="../images/metabee-medal.png"
-					alt="una medalla del anime Medabots"
-				/>
-			</a>
-			<nav>
-				<ul>
-					<li>
-						<a href="./projects.html" class="nav-button">Proyectos</a>
-					</li>
-					<li>
-						<a href="./skills.html" class="nav-button">Skills</a>
-					</li>
-					<li>
-						<a href="./contact.html" class="nav-button--active">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<h1>Contacto</h1>
-		<main></main>
-		<footer>
-			Sitio creado por
-			<a
-				href="https://github.com/MaxiJRom"
-				target="_blank"
-				title="Ir al perfil de GitHub personal"
-				>MaxiJRom</a
-			>
-		</footer>
-		<script src="../scripts.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="header-logo-box">
+        <img
+          title="Ir al home"
+          class="header-logo-img"
+          src="../images/metabee-medal.png"
+          alt="una medalla del anime Medabots"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="./projects.html" class="nav-button">Proyectos</a>
+          </li>
+          <li>
+            <a href="./skills.html" class="nav-button">Skills</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav-button--active">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Contacto</h1>
+    <main>
+      <form action="#">
+        <div class="form-input">
+          <label for="name"> Nombre o nickname </label>
+          <input type="text" id="name" />
+        </div>
+
+        <div class="form-input">
+          <label for="email"> e-mail </label>
+          <input type="email" id="email" />
+        </div>
+
+        <div class="form-input">
+          <label for="comment"> Comentario </label>
+          <textarea name="comment" id="comment" cols="50"></textarea>
+        </div>
+
+        <div class="form-input">
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      Sitio creado por
+      <a
+        href="https://github.com/MaxiJRom"
+        target="_blank"
+        title="Ir al perfil de GitHub personal"
+        >MaxiJRom</a
+      >
+    </footer>
+    <script src="../scripts.js"></script>
+  </body>
 </html>
